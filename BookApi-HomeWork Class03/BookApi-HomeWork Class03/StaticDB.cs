@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookApi_HomeWork_Class03
 {
-    public class StaticDB
+    public static class StaticDB
     {
         public static List<Book> Books = new List<Book>
         {
