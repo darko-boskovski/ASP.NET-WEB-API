@@ -22,7 +22,7 @@ namespace BookApi_HomeWork_Class03.Controllers
         }
 
         // GET api/<BooksController>/5
-        [HttpGet("index")]
+        [HttpGet("{index}")]
         public ActionResult<string> Get(int index)
         {
             try
