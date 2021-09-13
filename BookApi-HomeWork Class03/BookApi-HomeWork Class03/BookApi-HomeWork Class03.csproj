@@ -5,5 +5,10 @@
     <RootNamespace>BookApi_HomeWork_Class03</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.2.1" />
+  </ItemGroup>
+
 
 </Project>
