@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace WebApi_Get_Requests
 {
-    public class StaticDB
+    public static class StaticDB
     {
 
         public static List<string> Users = new List<string>
