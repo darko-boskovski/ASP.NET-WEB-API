@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>BookApi_HomeWork_Class03</RootNamespace>
+  </PropertyGroup>
+
+
+</Project>
