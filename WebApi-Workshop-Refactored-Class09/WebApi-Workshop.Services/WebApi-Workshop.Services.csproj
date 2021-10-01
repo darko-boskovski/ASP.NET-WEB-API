@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>WebApi_Workshop.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApi-Workshop.DataAccess\WebApi-Workshop.DataAccess.csproj" />
+    <ProjectReference Include="..\WebApi-Workshop.Domain\WebApi-Workshop.Domain.csproj" />
+    <ProjectReference Include="..\WebApi-Workshop.Mappers\WebApi-Workshop.Mappers.csproj" />
+    <ProjectReference Include="..\WebApi-Workshop.Models\WebApi-Workshop.Models.csproj" />
+  </ItemGroup>
+
+</Project>
