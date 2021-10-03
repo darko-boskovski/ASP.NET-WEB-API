@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SEDC.NotesAPI.DataAccess\SEDC.NotesAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\SEDC.NotesAPI.Domain\SEDC.NotesAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
