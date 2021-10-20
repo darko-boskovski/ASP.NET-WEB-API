@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lotto_3000_App.Domain\Lotto_3000_App.Domain.csproj" />
+    <ProjectReference Include="..\Lotto_3000_App.Models\Lotto_3000_App.Models.csproj" />
+  </ItemGroup>
+
+</Project>
