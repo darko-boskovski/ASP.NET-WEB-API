@@ -169,7 +169,7 @@ namespace WeatherApp.Services.Implementations
 
                 WeatherDataModel weatherDataModel = new WeatherDataModel();
                 //store data for 3 days
-                for (int i = 0; i < 3; i++)
+                for (int i = 0; i < 7; i++)
                 {
                     DateTime current = UnixTimeStampToDateTime((double)obj.daily[i].dt);
                     //get WeekDay
